@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="model"
+            type="com.example.searchapp.repository.model.ActivitiesItem" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        tools:context=".MainActivity">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_step_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10"
+            android:text="@{model.stepName}"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_activity_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_5"
+            android:text="@{model.name}"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@id/tv_step_name"
+            app:layout_constraintTop_toBottomOf="@+id/tv_step_name" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_step_days"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_20"
+            android:layout_marginRight="@dimen/margin_20"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="16sp"
+            android:text="@{model.totalDays.toString()}"
+            app:layout_constraintBottom_toBottomOf="@id/tv_activity_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/tv_activity_name" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:layout_marginEnd="@dimen/margin_10"
+            android:layout_marginRight="@dimen/margin_10"
+            android:background="@android:color/holo_red_light"
+            app:layout_constraintBottom_toBottomOf="@id/tv_activity_name"
+            app:layout_constraintEnd_toStartOf="@id/tv_step_days"
+            app:layout_constraintTop_toTopOf="@id/tv_activity_name" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_steps_completion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10"
+            android:layout_marginBottom="@dimen/margin_10"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:text="@{model.completionStatus.toString()}"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@id/tv_step_name"
+            app:layout_constraintTop_toBottomOf="@id/tv_activity_name" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

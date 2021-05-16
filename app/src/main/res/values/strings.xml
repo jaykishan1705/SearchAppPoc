@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SearchApp</string>
+    <string name="search">Search</string>
+    <string name="hint_enter_search">Enter search terms here</string>
+    <string name="phase">Phase</string>
+    <string name="term">Term</string>
+    <string name="not_found">not found</string>
+</resources>
