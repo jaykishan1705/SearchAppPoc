@@ -27,5 +27,5 @@ data.json file is stored inside assets folder which contain list of blocks - uni
 ## Screenshots
 |Term not found|Term found|
 |--|--|
-![image](https://drive.google.com/uc?export=view&id=1Jl7gySlrN9OUtW0v8FTDHUJ67ffZSyea) | 
+|![image](https://drive.google.com/uc?export=view&id=1Jl7gySlrN9OUtW0v8FTDHUJ67ffZSyea) | 
 ![image](https://drive.google.com/uc?export=view&id=1CxBZHmEokKzhe3qOSoMY79FYdph2NjKV) 
