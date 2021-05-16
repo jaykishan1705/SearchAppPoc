@@ -4,7 +4,7 @@ URL: https://github.com/jaykishan-sewak999/SearchPOC/tree/develop
 ## Working Branch - develop
 
 # Setup project 
-git clone https://github.com/jaykishan-sewak999/SearchPOC.git
+git clone https://github.com/jaykishan1705/SearchAppPoc.git
 
 # Description: 
 This application contains information of Blocks which have units inside and units have 
@@ -26,7 +26,7 @@ data.json file is stored inside assets folder which contain list of blocks - uni
 
 ## Screenshots
 
-![picture alt](https://drive.google.com/file/d/1Jl7gySlrN9OUtW0v8FTDHUJ67ffZSyea/view?usp=sharing) | 
-![picture alt](https://drive.google.com/file/d/1CxBZHmEokKzhe3qOSoMY79FYdph2NjKV/view?usp=sharing) | 
-![picture alt](https://drive.google.com/file/d/1Jl7gySlrN9OUtW0v8FTDHUJ67ffZSyea/view?usp=sharing)
+![image](https://drive.google.com/file/d/1Jl7gySlrN9OUtW0v8FTDHUJ67ffZSyea/view?usp=sharing) | 
+![image](https://drive.google.com/file/d/1CxBZHmEokKzhe3qOSoMY79FYdph2NjKV/view?usp=sharing) | 
+![image](https://drive.google.com/file/d/1Jl7gySlrN9OUtW0v8FTDHUJ67ffZSyea/view?usp=sharing)
 
